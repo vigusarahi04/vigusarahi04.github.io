@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encyclopedia Page</title>
+</head>
+<body>
+   
+    <h2> Table Of Contects </h2>
+    <ul> 
+        <li><a href="Section 1"> </a> Section 1</li> # how to add a link 
+    </ul>
+
+    </h2>Section 1 </h2>
+    <divid = Section 1> </divid>
+        <p> random info</p>
+        <br> # useded for breaking paragrpahs <br>
+
+
+    <h3>Subacttion 2</h3> 
+    <p> more information on </p>
+
+    </h2>Section 1 </h2>
+    <p> random info</p>
+    <br> # useded for breaking paragrpahs <br>
+
+
+    
+</body>
+</html>
