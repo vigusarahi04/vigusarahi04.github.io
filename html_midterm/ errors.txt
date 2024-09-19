@@ -1,0 +1,16 @@
+Errors in Find_errors_2
+1. On line 2 <head> needed a closing </head> which was added on line 4 
+2. First h1 should be in body not in head 
+3. <body has no closing tab so it needs to be </body> which was added on line 17 
+4. On line 7 <div> needs a clsoing </div> which was added below in line 9
+5. On line 8 <p> is missing the closing </p> 
+6. On Line 8 <strong> is missing the closing </strong> thats is after the important parapgrah 
+7. On line 10 the formate of the picture is wrong it needs to be src instead of href 
+8. On the same line its missing alt = which titles the image
+9. On line 11 its missing the beginning of the tab <h2> 
+10. On line 13 its missing the beginning of the tab <p> 
+11 On line 14 to add a comment its like <--> not <>
+12. 
+13.
+14.
+15. Line 17 has a typo where it says </htl> where it has to be </html> 
