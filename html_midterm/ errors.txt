@@ -24,3 +24,19 @@ Corrections for find_errors
 23. Line 59 is misstyped should be </u></p>
 24. Line 61 and 64 is misstyped should be <ol> not <dl>
 25. Line 65 is missed type should be h2 instead of h3 
+Errors in Find_errors_2
+1. On line 2 <head> needed a closing </head> which was added on line 4 
+2. On line 3  h1 should be in body not in head 
+3. On line 5 <body has no closing  >
+4. On line 7 <div> needs a closing </div> which was added below in line 9
+5. On line 8 <p> is missing the closing </p> 
+6. On Line 8 <strong> is missing the closing </strong> thats is after the important paragraph 
+7. On line 8 making sure </strong> is in the </p> as well
+8. On line 8 making sure the period is in before the </p>
+9. On line 10 the formate of the picture is wrong it needs to be src instead of href 
+10. On the same line its missing alt = which titles the image
+11. On line 11 its missing the beginning of the tab <h2> 
+12.On line 13 its missing the beginning of the tab <p> 
+13 On line 14 to add a comment its like <--> not <>
+14.On line 17 it needs a closing </body> 
+15. Line 17 has a typo where it says </htl> where it has to be </html> 
