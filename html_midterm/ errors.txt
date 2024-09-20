@@ -1,16 +1,26 @@
-Errors in Find_errors_2
-1. On line 2 <head> needed a closing </head> which was added on line 4 
-2. On line 3  h1 should be in body not in head 
-3. On line 5 <body has no closing  >
-4. On line 7 <div> needs a clsoing </div> which was added below in line 9
-5. On line 8 <p> is missing the closing </p> 
-6. On Line 8 <strong> is missing the closing </strong> thats is after the important parapgrah 
-7. On line 8 making sure </strong> is in the </p> as well
-8. On line 8 making sure the period is in before the </p>
-9. On line 10 the formate of the picture is wrong it needs to be src instead of href 
-10. On the same line its missing alt = which titles the image
-11. On line 11 its missing the beginning of the tab <h2> 
-12.On line 13 its missing the beginning of the tab <p> 
-13 On line 14 to add a comment its like <--> not <>
-14.On line 17 it needs a closing </body> 
-15. Line 17 has a typo where it says </htl> where it has to be </html> 
+Corrections for find_errors
+1. Line 1 Missing part of <!DOCTYPE for <HTML>
+2. Is missing a closing </head> added on line 7
+3. Line 4 is lang not language 
+4. Line 9  is missing </h1>
+5. Line 11 is missing <p>
+6. Line 13 is the wrong opeing for the list of li needs to be <ul>
+7. Line 19 is being open wrong with </li> needs to be <li>
+8. Line 26 is missing </p>
+9. Line 28 is missing alt = image
+10. Line 28 is incorrect with image name .png is incorrect needs to be .jpg
+11. Line 30 is missing a > after the "_blank"
+12. Line 30 is missing a closing </a>
+13. Line 39 is missing a </td>
+14. Line 45 is missing a </table> 
+15. Line 47 has a incorrect image title is error.jpg
+16. Line 47 instead of scource its scource
+17. Line 49 is needing both <p> and </p>
+18. Line 49 also needs <s> </s>
+19. Line 51 is incorrect instead of bgcolor it needs to be style="background-color: lightgray;"
+20. Line 55 is missing the end of --->
+21. Line 57 is missing the closing of </a>
+22. Line 57 is wrong needs to be u not em
+23. Line 59 is misstyped should be </u></p>
+24. Line 61 and 64 is misstyped should be <ol> not <dl>
+25. Line 65 is missed type should be h2 instead of h3 
