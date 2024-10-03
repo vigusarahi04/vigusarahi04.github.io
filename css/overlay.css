@@ -1,0 +1,16 @@
+h1{
+    color: #ea0000;
+    font-size: 10em;
+    font-family: Impact;
+    
+}
+body{
+    background:url('../img/shopping.jpg');
+    background-size: 1800px;
+    background-repeat: no-repeat;
+}
+#buynow{
+    position: relative; 
+    right:1px;
+    width: 50%;
+}

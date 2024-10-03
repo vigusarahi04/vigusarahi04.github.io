@@ -17,6 +17,14 @@ article {
   margin: 20px auto;
   position: relative;
   border: #f61f1f solid 2px;
+  
+  * how it was done in class*/
+  background:url('top_image.png') url('bottom_image.png');
+  background-position: top, bottom;
+  background-repeat:'no repeat' ;
+  background-color: white;
+
+
 } 
 
 address {
@@ -54,3 +62,5 @@ h1 {
 .overall_text{
   color: #f61f1f;
 }
+
+background_image url('image name')
