@@ -51,7 +51,7 @@ function calculateDogAge() {
     const dogAge = humanAge * 7;
 
     if (isNaN(humanAge) || humanAge < 1) {
-        resultDisplay.textContent = " ";
+        resultDisplay.textContent = "Please enter a valid dog's age!";
         resultDisplay.style.visibility = 'visible';
         return;
     }

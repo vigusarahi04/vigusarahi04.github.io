@@ -40,12 +40,15 @@ button:hover {
     background-color: #4cae4c;
 }
 
-.story, .result, #reversedNumber, #sortedString, #capitalizedString {
+.story{
     visibility: hidden;
     font-size: 18px;
     padding: 10px;
     background-color: #e9ecef;
     margin-top: 10px;
+}
+.result{
+    
 }
 
 .result {
