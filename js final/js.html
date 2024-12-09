@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Showcase</title>
+    <link rel="stylesheet" href="js.css">
+</head>
+<body>
+    <header>
+        <h1>My Project Showcase</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="project.html">Projects</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Browse Projects</h2>
+        
+        <label for="sortProjects">Sort by:</label>
+        <select id="sortProjects">
+            <option value="all">All</option>
+            <option value="html">HTML</option>
+            <option value="css">CSS</option>
+            <option value="javascript">JavaScript</option>
+        </select>
+
+        <div id="projectList" class="project-list"></div>
+    </main>
+
+    <footer>
+        <p>© 2024 My Project Showcase</p>
+    </footer>
+
+    <script src="js/script.js"></script>
