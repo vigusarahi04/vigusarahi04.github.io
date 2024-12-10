@@ -25,14 +25,14 @@ header {
     color:#723a79
 }
 #about p{
-    text-align: center; 
+    text-align: left; 
     font-display:initial;
-    color:#723a79
+    color:#000000
 }
 #about ul{
-    text-align: center; 
+    text-align: left; 
     font-display:initial;
-    color:#723a79
+    color:#000000
 }
 nav a {
     color: #f3ffff;
@@ -84,19 +84,21 @@ nav a {
     color:#723a79
 }
 #vix p{
-    text-align: center; 
+    text-align: left; 
     font-display:initial;
-    color:#723a79
+    color:#000000
 }
+
 #vix ul{
-    text-align: center; 
+    text-align: left; 
     font-display:initial;
-    color:#723a79
+    color:#000000
 }
+
 #vix a{
-    text-align: center; 
+    text-align: left; 
     font-display:initial;
-    color:#723a79
+    color:#000000
 }
 #truth{
     text-align: center; 
@@ -114,21 +116,25 @@ nav a {
     font-display:initial;
     color:#723a79
 }
+
 #truth p{
-    text-align: center; 
+    text-align: left; 
     font-display:initial;
-    color:#723a79
+    color:#000000
 }
+
 #truth ul{
-    text-align: center; 
+    text-align: left; 
     font-display:initial;
-    color:#723a79
+    color:#000000
 }
+
 #truth a{
-    text-align: center; 
+    text-align: left; 
     font-display:initial;
-    color:#723a79
+    color:#000000
 }
+
 #web{ text-align: center; 
     font-display:initial;
     color:#723a79
@@ -137,28 +143,32 @@ nav a {
     text-align: center; 
     font-display:initial;
     color:#723a79
-
 }
+
 #web h3{
     text-align: center; 
     font-display:initial;
     color:#723a79
 }
+
 #web p{
-    text-align: center; 
+    text-align: left; 
     font-display:initial;
-    color:#723a79
+    color:#000000
 }
+
 #web ul{
-    text-align: center; 
+    text-align: left; 
     font-display:initial;
-    color:#723a79
+    color:#000000
 }
+
 #web a{
-    text-align: center; 
+    text-align: left; 
     font-display:initial;
-    color:#723a79
+    color:#000000
 }
+
 .full-img img {
     width: 100%;
     height: auto;
