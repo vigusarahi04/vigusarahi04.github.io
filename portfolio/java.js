@@ -1,30 +1,30 @@
-fetch('./projects.json') 
+fetch('./js.json') 
     .then(response => response.json())
-    .then(data => {
-        console.log('Projects loaded:', data.projects);
-        displayProjects(data.projects);
+    .then(projects => {
+        console.log('Projects loaded:', projects);
+        parseData(projects);
     })
     .catch(err => {
         console.error(`Error: ${err}`); 
     });
 
-function displayProjects(projects) {
-    const projectContainer = document.getElementById('projects');
-    projects.forEach(project => {
-        const projectHTML = `
-            <a href="${project.link}" class="project-link">
-                <div class="project-card">
-                    <img src="images/${project.images[0] || 'default.jpg'}" alt="${project.name} project image" class="project-image">
-                    <div class="project-info">
-                        <h3>${project.name}</h3>
-                        <p>${project.abstract}</p>
-                        <p class="subtitle">Technologies: ${project.subtitle.join(', ')}</p>
+function parseData(data) {
+    for(let i = 0; i < data.projects.length; i++) {
+        document.getElementById("projects").insertAdjacentHTML('beforeend', `
+            <a href="/portfolio/${data.projects[i].subdomain}.html">
+                <div class="row project" id="${data.projects[i].subdomain}">
+                    <div class="projimg">
+                        <img src="img/${data.projects[i].image}" alt="${data.projects[i].name}">
+                    </div>
+                    <div class="description">
+                        <h2>${data.projects[i].name}</h2>
+                        <p class="subtitle">${data.projects[i].subtitle}</p>
+                        <p>${data.projects[i].abstract}</p>
                     </div>
                 </div>
             </a>
-        `;
-        projectContainer.insertAdjacentHTML('beforeend', projectHTML);
-    });
+        `);
+    }
 }
 
       const displayedImage = document.querySelector('.displayed-img');
@@ -39,3 +39,14 @@ function displayProjects(projects) {
         'Line graph',
         'Final graphs'
       ];
+      for (let i = 0; i < imageFilenames.length; i++) {
+        const newImage = document.createElement('img');
+        newImage.setAttribute('src', `../img/${imageFilenames[i]}`);
+        newImage.setAttribute('alt', imageAlts[i]);
+        thumbBar.appendChild(newImage);
+      
+        newImage.addEventListener('click', () => {
+          displayedImage.src = newImage.src;
+          displayedImage.alt = newImage.alt;
+        });
+      }
