@@ -8,9 +8,31 @@ header {
     padding: 1rem 0;
     text-align: center;
 }
-h1 {
- color: #0a0303;
- font-size: 25px;
+#about{
+    font-size: 25 px;
+    font-display:initial;
+    color:#723a79
+}
+#about h1{
+    text-align: center; 
+    font-display:initial;
+    color:#723a79
+
+}
+#about h3{
+    text-align: center; 
+    font-display:initial;
+    color:#723a79
+}
+#about p{
+    text-align: center; 
+    font-display:initial;
+    color:#723a79
+}
+#about ul{
+    text-align: center; 
+    font-display:initial;
+    color:#723a79
 }
 nav a {
     color: #f3ffff;
@@ -26,7 +48,7 @@ nav a {
 
 #projects a {
     text-decoration: none;
-    color: black;
+    color: #723a79;
 }
 
 #projects a:hover {
@@ -38,9 +60,120 @@ nav a {
 }
 
 .project {
+    font-size:40;
     display: flex;
     flex-direction: row;
     border: 1px solid black;
     margin-top: 10px;
     padding: 15px 20px;
 }
+#vix{
+    font-size: 25 px;
+    font-display:initial;
+    color:#723a79
+}
+#vix h1{
+    text-align: center; 
+    font-display:initial;
+    color:#723a79
+
+}
+#vix h3{
+    text-align: center; 
+    font-display:initial;
+    color:#723a79
+}
+#vix p{
+    text-align: center; 
+    font-display:initial;
+    color:#723a79
+}
+#vix ul{
+    text-align: center; 
+    font-display:initial;
+    color:#723a79
+}
+#vix a{
+    text-align: center; 
+    font-display:initial;
+    color:#723a79
+}
+#truth{
+    text-align: center; 
+    font-display:initial;
+    color:#723a79
+}
+#truth h1{
+    text-align: center; 
+    font-display:initial;
+    color:#723a79
+
+}
+#truth h3{
+    text-align: center; 
+    font-display:initial;
+    color:#723a79
+}
+#truth p{
+    text-align: center; 
+    font-display:initial;
+    color:#723a79
+}
+#truth ul{
+    text-align: center; 
+    font-display:initial;
+    color:#723a79
+}
+#truth a{
+    text-align: center; 
+    font-display:initial;
+    color:#723a79
+}
+#web{ text-align: center; 
+    font-display:initial;
+    color:#723a79
+}
+#web h1{
+    text-align: center; 
+    font-display:initial;
+    color:#723a79
+
+}
+#web h3{
+    text-align: center; 
+    font-display:initial;
+    color:#723a79
+}
+#web p{
+    text-align: center; 
+    font-display:initial;
+    color:#723a79
+}
+#web ul{
+    text-align: center; 
+    font-display:initial;
+    color:#723a79
+}
+#web a{
+    text-align: center; 
+    font-display:initial;
+    color:#723a79
+}
+.full-img img {
+    width: 100%;
+    height: auto;
+}
+
+.thumb-bar img {
+    width: 10%; 
+    height: auto;
+    cursor: pointer;
+}
+
+.thumb-bar {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+

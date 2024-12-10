@@ -1,3 +1,26 @@
+const displayedImage = document.querySelector('.displayed-img');
+const thumbBar = document.querySelector('.thumb-bar');
+
+const imageFilenames = ['sketch.jpg', 'finalpitch.jpg', 'workinprogress.jpg', 'scatterplot.jpg', 'finalgraph.jpg'];
+const imageAlts = [
+  'Sketching',
+  'Final pitch',
+  'Progress graphs and visualizations',
+  'Scatterplot',
+  'Final graphs'
+];
+
+for (let i = 0; i < imageFilenames.length; i++) {
+  const newImage = document.createElement('img');
+  newImage.setAttribute('src', `../img/${imageFilenames[i]}`);
+  newImage.setAttribute('alt', imageAlts[i]);
+  thumbBar.appendChild(newImage);
+
+  newImage.addEventListener('click', () => {
+    displayedImage.src = newImage.src;
+    displayedImage.alt = newImage.alt;
+  });
+}
 fetch('./js.json') 
     .then(response => response.json())
     .then(projects => {
@@ -27,26 +50,3 @@ function parseData(data) {
     }
 }
 
-      const displayedImage = document.querySelector('.displayed-img');
-      const thumbBar = document.querySelector('.thumb-bar');
-      
-      const imageFilenames = ['sketch.jpg', 'finalpitch.jpg', 'workinprogress.jpg', 'scatterplot.jpg', 'linegraph.jpg', 'finalgraph.jpg'];
-      const imageAlts = [
-        'Sketching',
-        'Final pitch',
-        'Progress graphs and visualizations',
-        'Scatterplot',
-        'Line graph',
-        'Final graphs'
-      ];
-      for (let i = 0; i < imageFilenames.length; i++) {
-        const newImage = document.createElement('img');
-        newImage.setAttribute('src', `../img/${imageFilenames[i]}`);
-        newImage.setAttribute('alt', imageAlts[i]);
-        thumbBar.appendChild(newImage);
-      
-        newImage.addEventListener('click', () => {
-          displayedImage.src = newImage.src;
-          displayedImage.alt = newImage.alt;
-        });
-      }
