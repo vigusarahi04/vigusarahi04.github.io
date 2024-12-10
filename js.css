@@ -1,0 +1,46 @@
+body {
+    font-family:Arial, Helvetica, sans-serif
+}
+
+header {
+    background-color: #e2a3e9;
+    color: #0a0303;
+    padding: 1rem 0;
+    text-align: center;
+}
+h1 {
+ color: #0a0303;
+ font-size: 25px;
+}
+nav a {
+    color: #f3ffff;
+    font-size: 15px;
+    margin: 0 1rem;
+    text-decoration: none;
+}  
+#projects {
+    display: flex;
+    flex-direction: column;
+    margin: 10vh 20vw;
+}
+
+#projects a {
+    text-decoration: none;
+    color: black;
+}
+
+#projects a:hover {
+    color: rgb(248, 161, 229); 
+}
+
+.project:hover {
+    background-color: rgb(240, 235, 228);
+}
+
+.project {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    margin-top: 10px;
+    padding: 15px 20px;
+}
