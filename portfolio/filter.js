@@ -15,16 +15,16 @@ function sortProjects(button) {
 
     if (button === "clear") { 
         for (let i = 0; i < proj.projects.length; i++) { 
-            const projectElement = document.getElementById(proj.projects[i].subtitle);
+            const projectElement = document.getElementById(proj.projects[i].subdomain);
             if (projectElement) projectElement.style.display = "flex";
         }
     } else if (button !== undefined) { 
         for (let i = 0; i < proj.projects.length; i++) {
-            const projectElement = document.getElementById(proj.projects[i].subtitle);
+            const projectElement = document.getElementById(proj.projects[i].subdomain);
             if (!projectElement) continue;
             
-            if (typeof proj.projects[i].subtitle === 'string' && 
-                proj.projects[i].subtitle.toLowerCase().includes(button.toLowerCase())) {
+            if (typeof proj.projects[i].subdomain === 'string' && 
+                proj.projects[i].subdomain.toLowerCase().includes(button.toLowerCase())) {
                 projectElement.style.display = "flex";
             } else {
                 projectElement.style.display = "none";
