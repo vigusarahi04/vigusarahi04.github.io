@@ -2,27 +2,27 @@
   "projects": [
     {
       "name": "World Health Organization Data on Global Air Emissions and Health Impacts",
-      "subdomain": "World_Health_Organization",
+      "subdomain": "Viz",
       "abstract": "The World Health Organization tracks air emissions and health impacts, including particulate matter and mortality rates. Our team explored the link between pollution and respiratory health.",
       "subtitle": ["python", "google-colab", "data-sets"],
       "images": ["sketch.jpg", "finalpitch.jpg", "workinprogress.jpg", "scatterplot.jpg", "linegraph.jpg", "finalgraph.jpg"],
-      "link": "/portfolio/viz.html"
+      "link": "/Viz.html"
     },
     {
       "name": "Colorado Symphony Website",
-      "subdomain": "Colorado_Symphony_Website",
+      "subdomain": "website",
       "abstract": "A group project to create an informational website about the Colorado Symphony using HTML and CSS.",
       "subtitle": ["html", "css"],
       "images": ["website.jpg"],
-      "link": "portfolio/website.html"
+      "link": "/website.html"
     },
     {
       "name": "Truth or Dare",
-      "subdomain": "Truth_or_Dare",
+      "subdomain": "truth",
       "abstract": "The Truth or Dare App encourages users to disconnect from technology and reconnect with nature through playful challenges. It uses Figma prototypes, user flows, interviews, and personas to create a seamless, user-centered experience.",
       "subtitle": ["html", "interviews", "ux-design"],
       "images": ["userflow.jpg"],
-      "link": "portfolio/truth-or-dare.html"
+      "link": "/truth.html"
     }
   ]
 }
